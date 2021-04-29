@@ -48,7 +48,7 @@ for _ in range(10):
 
 game_over = False
 while not game_over:
-    reloj.tick(60)
+    reloj.tick(30)
     
     # Gestión de eventos
     for evento in pg.event.get():
